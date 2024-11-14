@@ -1,0 +1,3 @@
+# Core dependencies for SOFAI Tool
+numpy               # For data handling and mathematical operations
+matplotlib          # For plotting and visualizing solver activity
