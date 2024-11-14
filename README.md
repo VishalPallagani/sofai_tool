@@ -13,6 +13,6 @@ SOFAI Tool is a neurosymbolic system designed to integrate fast heuristic-based 
 Clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/username/sofai_tool.git
+git clone [https://github.com/username/sofai_tool.git](https://github.com/VishalPallagani/sofai_tool.git)
 cd sofai_tool
 pip install -r requirements.txt
