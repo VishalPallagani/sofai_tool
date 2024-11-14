@@ -94,16 +94,11 @@ sofai.plot_solver_activity(log_data)
 
 ## Creating Instances of SOFAI Tool
 
-SOFAI Tool provides a modular setup that enables users to adapt this system to build neurosymbolic architectures for problems of their choice. By implementing custom System 1 and System 2 solvers, you can model various types of decision-making systems. Each solver type is tailored to handle specific reasoning tasks, where System 1 is designed for heuristic or case-based solutions with quick confidence estimation, and System 2 is intended for logical, systematic solutions.
+SOFAI Tool provides a modular setup that enables users to adapt this system to build neurosymbolic architectures for problems of their choice. By implementing custom System 1 and System 2 solvers, you can model various types of decision-making systems. 
 
-### Example Application
+### Example Applications
 
-Imagine using SOFAI Tool for a problem in route planning:
-- **System 1 Solver**: A fast but approximate route planner that quickly generates a potential route.
-- **System 2 Solver**: A more precise but slower solver that calculates optimal paths based on multiple factors.
-- **Metacognition**: Determines whether the fast solution from System 1 is adequate, based on confidence, or if System 2 should be invoked for a more accurate solution.
-
-With this flexible architecture, SOFAI Tool can be customized to handle problems in various domains, such as financial decision-making, robotic navigation, or any problem that benefits from a neurosymbolic approach combining heuristic and logical reasoning.
+[Graph Coloring, Planning, RL-based grid navigation notebooks go here]
 
 ## Directory Structure
 
