@@ -18,6 +18,21 @@ cd sofai_tool
 pip install -r requirements.txt
 ```
 
+## Directory Structure
+
+```
+sofai_tool/
+├── solvers/                   # Contains System 1 and System 2 solver templates
+│   ├── system1.py             # System 1 solver base class
+│   ├── system2.py             # System 2 solver base class
+├── metacognition/             # Contains metacognition module
+│   └── metacognition_module.py
+├── utils/                     # Utility functions
+│   ├── logger.py              # Logging functions
+│   └── visualization.py       # Visualization functions
+└── README.md                  # Project documentation
+```
+
 ## Usage
 
 The following examples demonstrate how to use the SOFAI Tool by importing the package as `sofai`.
@@ -99,21 +114,6 @@ SOFAI Tool provides a modular setup that enables users to adapt this system to b
 ### Example Applications
 
 [Graph Coloring, Planning, RL-based grid navigation notebooks go here]
-
-## Directory Structure
-
-```
-sofai_tool/
-├── solvers/                   # Contains System 1 and System 2 solver templates
-│   ├── system1.py             # System 1 solver base class
-│   ├── system2.py             # System 2 solver base class
-├── metacognition/             # Contains metacognition module
-│   └── metacognition_module.py
-├── utils/                     # Utility functions
-│   ├── logger.py              # Logging functions
-│   └── visualization.py       # Visualization functions
-└── README.md                  # Project documentation
-```
 
 ## License
 
