@@ -16,6 +16,7 @@ Clone the repository and install the required packages:
 git clone https://github.com/VishalPallagani/sofai_tool.git
 cd sofai_tool
 pip install -r requirements.txt
+```
 
 ## Usage
 
